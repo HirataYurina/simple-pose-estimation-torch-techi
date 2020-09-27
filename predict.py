@@ -25,7 +25,7 @@ def argument_parse():
                         help='the path of your model')
     parser.add_argument('--device', type=str, default='cpu',
                         help='use cpu or gpu to infer')
-    parser.add_argument('--img_path', type=str, default='imgs/man4.jpg',
+    parser.add_argument('--img_path', type=str, default='imgs/man5.jpg',
                         help='path of your image')
     parser.add_argument('--resize', type=tuple, default=(192, 256),
                         help='the input size of your model and the format is (width, height)')
@@ -195,6 +195,6 @@ if __name__ == '__main__':
                         fontScale=fontScale,
                         color=(255, 255, 255),
                         thickness=1)
-
+    # cv2.imwrite('imgs/man5_result.jpg', man)
     cv2.imshow('man', man)
     cv2.waitKey(0)
