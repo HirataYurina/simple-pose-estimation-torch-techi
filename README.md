@@ -29,3 +29,7 @@ optional arguments:
   --only_up_limb ONLY_UP_LIMB
 ```
 
+***
+
+:fire: pretained model url:https://pan.baidu.com/s/1Ia0UPdFY7OWowZzHdW4h5Q ​
+:fire: password：0swj
